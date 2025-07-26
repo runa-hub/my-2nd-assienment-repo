@@ -364,14 +364,16 @@
   }
   .off-plant {
     grid-template-columns: repeat(1, 1fr);
+
   }
   .ana,
   .bloom,
   .zabo {
     width: 361px;
-    height: 175px;
+    height: 172px;
     border-radius: 10px;
     gap: 20px;
+    align-items: center;
   }
   .zabo {
     margin-top: 10px;
