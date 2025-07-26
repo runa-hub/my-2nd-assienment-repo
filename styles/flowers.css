@@ -421,19 +421,11 @@
 .footer{
   width: 576px;
   margin: 50px;
-  flex-direction: column;align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
   
 }
 
-.footer p {
-  margin-top: 10px;
-  font-size: 14px;
-  font-weight: 100;
-  color: rgba(0, 0, 0, 0.5);
-}
-.list-flex{
-  flex-direction: column;
-  align-items: flex-start;
-}
+
 
 }
