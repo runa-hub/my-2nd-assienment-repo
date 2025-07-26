@@ -16,17 +16,18 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css">
     <link rel="stylesheet" href="styles/flowers.css" />
   </head>
   <body>
     <header>
       <nav class="navbar container">
-        <img src="image/logo.png" alt="logo" />
+        <img class="logo" src="image/logo.png" alt="logo" />
 
         <ul class="nav-item">
-          <li class="list-item"><a class="nav-link" href="">Home</a></li>
-          <li class="list-item"><a class="nav-link" href="">Shop</a></li>
-          <li class="list-item"><a class="nav-link" href="">About us</a></li>
+          <li class="list-item"><a class="nav-link" id="home" href="">Home</a></li>
+          <li class="list-item"><a class="nav-link" id="shop" href="">Shop</a></li>
+          <li class="list-item"><a class="nav-link" id="about" href="">About us</a></li>
           <li class="list-item">
             <a class="nav-link" href="">
               <span
@@ -47,7 +48,9 @@
             variety of fresh flowers that are perfect for any occasion.
           </p>
         </div>
-        <div><img src="image/hero-flower.png" alt="banner image" /></div>
+        <div>
+          <img class="banner-img" src="image/hero-flower.png" alt="banner image" />
+        </div>
       </section>
     </header>
     <main>
@@ -126,13 +129,75 @@
           </p>
         </div>
       </section>
-      <div class="deal">
+      <div class="deal container">
         <h2><span class="color-style">Latest</span>  Deals</h2>
         <p>Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</p>
 
       </div>
+      <section class="off-plant container">
+        <div class="deal">
+          
+         <div class="bloom">
+          <h3>60% Off | Bloom Plant</h3>
+          <p><u>Shop Now</u></p>
+         </div>
+         <div class="ana">
+          <h3>30% Off | Ana  Plant</h3>
+          <p><u>Shop Now</u></p>
+         </div>
+        </div>
+        <div class="zabo">
+          <h3>25% Off | Zabo Plant</h3>
+          <p><u>Shop Now</u></p>
+
+        </div>
+      
+      </section>
+      <section >
+        <div class="bunch">
+          <h2>Join the colorful Bunch</h2>
+         <div class="join"> <input type="text" placeholder="write email">
+          <button >subscribe</button></div>
+
+        </div>
+
+      </section>
     </main>
    
-    <footer></footer>
+    <footer class="footer ">
+      <div>
+        <img src="image/logo.png" alt="logo">
+        <p>Indulge your senses with the <br> beauty and fragrance of our fresh <br> flower shop. </p>
+      </div>
+      <div>
+        <ul>
+          <li class="list"><a class="link-style" href="">Home</a></li>
+          <li class="list"><a class="link-style" href="">About us</a></li>
+          <li class="list"><a class="link-style" href="">Blog</a></li>
+          <li class="list"><a class="link-style" href="">Faq</a></li>
+          <li class="list"><a class="link-style" href="">contact us</a></li>
+          
+        </ul>
+      </div>
+      <div>
+        <ul>
+           <li class="list"><a class="link-style" href="">Feature</a></li>
+           <li class="list"><a class="link-style" href="">Pricing</a></li>
+           <li class="list"><a class="link-style" href="">privecy policy</a></li>
+           <li class="list"><a class="link-style" href="">Terms of service</a></li>
+           <li class="list"><a class="link-style" href="">Help center</a></li>
+          
+        </ul>
+      </div>
+      <div class="image">
+        <img class="img-1" src="image/icon-facebook.png" alt="">
+        <img class="img-1" src="image/icon-linkedin.png" alt="">
+        <img class="img-1" src="image/icon-twitter.png" alt="">
+        <img class="img-1" src="image/icon-youtube.png" alt="">
+
+
+      </div>
+
+    </footer>
   </body>
 </html>
