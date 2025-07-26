@@ -291,6 +291,11 @@
   color: rgba(0, 0, 0, 0.5);
   gap: 10px;
 }
+.list-flex{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
 .image {
   gap: 10px;
 }
@@ -412,6 +417,11 @@
   font-weight: 100;
   border: none;
   padding: 0px;
+}
+.footer{
+  width: 576px;
+  margin: auto;
+  flex-direction: column;
 }
 
 }
